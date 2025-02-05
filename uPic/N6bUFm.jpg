@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="exposure-on">
+    <meta name="data-fact" content="">
+    <meta name="ut-on">
+    <meta name="multiple-page">
+
+
+
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <meta name="description"/>
+    
+    <title>网盘移动端入口</title>
+    <link rel="shortcut icon" href="//sm01.alicdn.com/L1/272/1990/favicon/favi.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.sm.cn/static/21/01/27/735dc0dcf038b5262ce8b658437a4978-2.css">
+    <script> 
+        window.INIT_DATA = {
+            firstData: {"data_source_map":{}},
+            share: {}
+        };
+        window.sm = {
+            PARAM: {"env":"prod","log_type":"","log":{},"ua":{"isQuark":false,"isUC":false}}
+        }
+    </script>
+    <script> 
+        !(function(c, i, e, b) {
+            var h = i.createElement("script");
+            var f = i.getElementsByTagName("script")[0];
+            h.type = "text/javascript";
+            h.crossorigin = true;
+            h.onload = function() {
+                try {
+                    c[b] || (c[b] = new c.wpkReporter({
+                        bid: "mobile-entry-97",
+                        onlyCustomInUCCore: true,
+                        plugins: []
+                    }));
+                    c[b].installAll();
+                    c[b].addPlugin(wpkblankPlugin, {
+                        enable: true,
+                        sampleRate: 1,
+                        rootNode: document.body,
+                        maxDepth: 8,
+                        minElements: 10,
+                        keyNoteText: [],
+                        ignorePageUrls: function(location) {},
+                        onloadDuration: 8000,
+                        startCheckingTime: 8000
+                    })
+                } catch(e) {
+                    console.error("init wpkReporter fail", e)
+                }
+            };
+            f.parentNode.insertBefore(h, f);
+            h.src = e
+        })(window, document, "https://g.alicdn.com/woodpeckerx/jssdk??wpkReporter.js,plugins/blank.js", "__wpk");
+    </script>
+</head>
+<body>
+    <div id='app' style="height: 100%;"></div>
+        <script type="text/javascript" src="https://g.alicdn.com/bloom-pages/mobile-entry-97/js/common.64c64.js"></script>
+        <script type="text/javascript" src="https://g.alicdn.com/bloom-pages/mobile-entry-97/js/index.d1bdd.js"></script>
+</body>
+</html>
